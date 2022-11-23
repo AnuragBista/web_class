@@ -1,0 +1,28 @@
+.main-div h1 {
+    background-color: aquamarine;
+    color: beige;
+    }
+
+    p{
+        border-style: solid;
+        border-width: 5px;
+     }
+     p{
+        border:2px solid rebeccapurple;
+        border-radius: 50px;
+
+     }
+     p{
+        border: 1px solid rebeccapurple;
+        width: 500px;
+        margin:200px;
+        padding:50px
+     }
+     #paral1 {
+        color: cadetblue;
+        text-align: center;
+        color: red;
+        text- transform: uppercase;
+        letter: spacing 2px;
+        word-spacing:10px;
+     }

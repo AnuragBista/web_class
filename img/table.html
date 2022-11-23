@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+         table {
+    margin-right: 25%;
+    margin-left: 25%;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 5px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  caption{
+    font-size: 40px;
+  }
+
+  h1{
+    text-align: center;
+    color: #6667FE;
+  }
+
+  form{
+        border: 1px solid #888888;
+        max-width: 350px;
+        margin-left: 40%;
+        padding: 10px;
+        border-radius: 0.5em;
+        background-color: antiquewhite;
+        box-shadow: 3px 3px #888888;
+    }
+
+    label{
+        font-weight: bolder;
+        margin-bottom: 10px;    
+       
+    }
+    input{
+            padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 15px;
+      border-radius: 0.8em;
+    }
+        input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+        input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>This is a form.</h1>
+        <div>
+            <form>
+               <label for="fname">First name:</label><br />
+               <input type="text" id="fname" name="fname" placeholder="Your First Name"/><br />
+               <label for="lname">Last name:</label><br />
+               <input type="text" id="lname" name="lname" placeholder="Your Last Name"/><br />
+            <br>
+            <div>
+                <input type="radio" id="male" name="gender" calue="male" />
+                <label for="male">Male</label><br />
+                <input type="radio"id="female" name="gender" calue="female" />
+                <label for="female">Female</label><br />
+                <input type="radio"id="other" name="gender" calue="other" />
+                <label for="other">Other</label><br />
+            </div>
+    </section>
+    <section>
+        <h1>This is a Table.</h1>
+        <table>
+            <tr>
+              <th rowspan="2">Name</th>
+              <th rowspan="2">Class</th>
+              <th rowspan="2">Roll no</th>
+              <th rowspan="2">Phone</th>
+              <th rowspan="2">Email</th>
+              <th rowspan="2">Gender</th>
+              <th colspan="4">Subject</th>
+              <th rowspan="2">Points</th>
+            </tr>
+
+            <tr>
+                <th>Maths</th>
+                <th>English</th>
+                <th>Nepali</th>
+                <th>Computer</th>
+            </tr>
+            <tr>
+              <td>Anurag Bista</td>
+              <td>32 B</td>
+              <td>220068</td>
+              <td>98444</td>
+              <td>220068@softwarica.edu.np</td>
+              <td>Male</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>100</td>
+            </tr>
+
+            <tr>
+                <td>J cole</td>
+                <td>32 B</td>
+                <td>220058</td>
+                <td>98222</td>
+                <td>220058@softwarica.edu.np</td>
+                <td>Male</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>100</td>
+              </tr>
+
+            <tr>
+            
+            <tr>
+                <td> Drake </td>
+                <td>32 B </td>
+                <td> 220100</td>
+                <td>98453</td>
+                <td>220100@softwarica.edu.np </td>
+                <td>Male</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>100</td>
+            </tr>
+                <td colspan="10">Total points</td>
+                <td>100</td> 
+            </tr>
+          </table>
+    </section>
+</body>
+</html>
